@@ -15,7 +15,7 @@
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/evgen-jkay/frakvann)
 ---
 ## Настройка:
-1. Измените файл `.env.examle` на `.env`.
+1. Измените файл `.env.example` на `.env`.
 2. В файле `.env` измените параметры для подключения к БД на свои:
 ```apacheconf
 DB_HOST=127.0.0.1           // Host
@@ -33,6 +33,7 @@ APP_URL=http://localhost
 ```apacheconf
 php artisan migrate
 ```
+> После установки миграции у Вас будет чистая база данных со всеми нужными таблицами.
 
 ## Сделано:
 - [x] `v0.1` Создание проекта, бд, репозитория.
@@ -40,8 +41,7 @@ php artisan migrate
 - [x] `v0.3` Роли пользователей
 
 ## TODO
-- [ ] Статьи
-- [ ] Магазин
+- [ ] Админ панель
 
 > Данный проект в стадии разработки и доработки
 
