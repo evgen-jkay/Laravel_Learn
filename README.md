@@ -33,6 +33,7 @@ APP_URL=http://localhost
 ```apacheconf
 php artisan migrate
 ```
+
 ## Задачи:
 
 - [ ] Регистрация/Авторизация
