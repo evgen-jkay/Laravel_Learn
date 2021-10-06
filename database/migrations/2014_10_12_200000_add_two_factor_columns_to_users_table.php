@@ -13,6 +13,7 @@ class AddTwoFactorColumnsToUsersTable extends Migration
      */
     public function up()
     {
+        DB::statement('SET FOREIGN_KEY_CHECKS=0;');
         Schema::table('users', function (Blueprint $table) {
             $table->text('two_factor_secret')
                     ->after('password')
