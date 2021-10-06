@@ -15,6 +15,7 @@
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/evgen-jkay/frakvann)
 ---
 ## Настройка:
+
 1. Измените файл `.env.example` на `.env`.
 2. В файле `.env` измените параметры для подключения к БД на свои:
 ```apacheconf
@@ -26,23 +27,27 @@ DB_PASSWORD=                // Password DB
 ```
 3. Измените так же параметры 
 ```apacheconf 
-APP_NAME=Laravel
-APP_URL=http://localhost
+APP_NAME=Laravel            // Название приложения
+APP_URL=http://localhost.   // URL Вашего приложения
 ```
 4. Для установки БД нужно запустить миграцию:
 ```apacheconf
 php artisan migrate
 ```
+
 > После установки миграции у Вас будет чистая база данных со всеми нужными таблицами.
 
 ## Сделано:
+
 - [x] `v0.1` Создание проекта, бд, репозитория.
-- [x] `v0.2` Регистрация/Авторизация 
-- [x] `v0.3` Роли пользователей
+- [x] `v0.2` Регистрация/Авторизация `Fortify`
+- [x] `v0.3` Роли пользователей `Spatie`
 
 ## TODO
+
 - [ ] Админ панель
 
 > Данный проект в стадии разработки и доработки
+> Это проект для портфолио.
 
 <evgenlandarenko@gmail.com>
