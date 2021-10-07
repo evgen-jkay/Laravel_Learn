@@ -13,7 +13,6 @@ class CreateCategoriesTable extends Migration
      */
     public function up()
     {
-        DB::statement('SET FOREIGN_KEY_CHECKS=0;');
         Schema::create('categories', function (Blueprint $table) {
             $table->id();
             $table->string('title');

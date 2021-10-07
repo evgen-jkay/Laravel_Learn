@@ -13,7 +13,6 @@ class CreatePostsTable extends Migration
      */
     public function up()
     {
-        DB::statement('SET FOREIGN_KEY_CHECKS=0;');
         Schema::create('posts', function (Blueprint $table) {
             $table->id();
             $table->string('title');
