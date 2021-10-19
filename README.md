@@ -1,5 +1,3 @@
-![Logo](public/frak.png)
----
 ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/evgen-jkay/frakvann/Laravel)
 ![GitHub](https://img.shields.io/github/license/evgen-jkay/frakvann)
 ![Snyk Vulnerabilities for GitHub Repo](https://img.shields.io/snyk/vulnerabilities/github/evgen-jkay/frakvann)
